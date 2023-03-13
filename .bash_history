@@ -17,3 +17,9 @@ git push
 git status
 git config --global user.name Arjunmettu
 git commit -m 'ff'
+git add .
+git commit -m 'chnages'
+git push 
+git push origin main
+git push origin master
+cd ..
