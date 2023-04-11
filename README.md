@@ -17,7 +17,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/api-to-bigquery-to-github.git
+git clone [https://github.com/your-username/api-to-bigquery-to-github.git](https://github.com/Arjunmettu/api-to-bigquery-to-github.git)
 Install the required Python packages:
 Copy code
 pip install -r requirements.txt
@@ -27,8 +27,9 @@ Configure the project by setting the necessary environment variables:
 arduino
 Copy code
 export API_KEY=your-api-key
-export GCP_PROJECT_ID=your-project-id
-export GCP_DATASET_ID=your-dataset-id
+export GCP_PROJECT_ID=your-project-id (galvanic-being-379015)
+
+export GCP_DATASET_ID=your-dataset-id (galvanic-being-379015.my_dataset)
 export GITHUB_REPO=your-repo-name
 Run the batch data ingestion pipeline:
 css
@@ -39,10 +40,10 @@ Configuration
 
 To configure the project, you will need to set the following environment variables:
 
-API_KEY: Your API key for accessing the API.
+API_KEY: Your API key for accessing the API.(/Users/Arjun/Downloads/Videographers/key.json)
 GCP_PROJECT_ID: Your Google Cloud project ID.
 GCP_DATASET_ID: Your BigQuery dataset ID.
-GITHUB_REPO: The name of your GitHub repository.
+GITHUB_REPO: The name of your GitHub repository.(Data_Ingestion_API_to_BQ)
 API Integration
 
 This project retrieves data from the API using the requests library in Python. You will need to provide your API key in the Authorization header of the API request.
